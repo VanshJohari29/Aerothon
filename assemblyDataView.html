@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$.ajax({
+				url: "assembly.csv",
+				dataType: "text",
+				success: function(data) {
+					var lines = data.split("\n");
+					var table = "<table>";
+					for (var i = 0; i < lines.length; i++) {
+						table += "<tr>";
+						var cells = lines[i].split(",");
+						for (var j = 0; j < cells.length; j++) {
+							table += "<td>" + cells[j] + "</td>";
+						}
+						table += "</tr>";
+					}
+					table += "</table>";
+					$("#csvTable").html(table);
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="csvTable"></div>
+</body>
+</html>
