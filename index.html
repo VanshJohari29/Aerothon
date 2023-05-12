@@ -8,15 +8,20 @@
   <div class="container">
     <h1>Login</h1>
     <form id="loginForm">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required>
+      <div class="input-field">
+      <label for="username">Username</label>
+      <input type="text" id="username" placeholder = "Enter your username" name="username" required>
+      </div>
       
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password" required>
+       <div class="input-field">
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder = "Enter your password" name="password" required>
+        </div>
       
       <button type="submit">Login</button>
     </form>
     <p id="message"></p>
+    
   </div>
 
   <script src="script.js"></script>
