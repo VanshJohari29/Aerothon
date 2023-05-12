@@ -11,8 +11,7 @@ body {
   padding: 20px;
   background-color: transparent;
   border-radius: 4px;
-  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
-  margin-LEFT: 60px;
+  margin-LEFT: 30px;
 }
 
 .input-field {
@@ -33,7 +32,7 @@ margin-bottom: 15px;
   line-height: 1;
   font-weight: 200;
   font-size: 1rem;
-  color: black;
+  color: white;
 }
 
 h1 {
