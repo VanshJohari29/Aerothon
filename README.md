@@ -12,7 +12,7 @@ Amazon S3: Object storage service used for storing and retrieving files and medi
 Amazon Athena: Serverless interactive query service used for analyzing data stored in Amazon S3.
 Database: Utilizes a database management system such as MySQL, PostgreSQL, or MongoDB.
 
-DDEVELOPMENT TOOLS :
+DEVELOPMENT TOOLS :
 IDE: Visual Studio Code or any preferred code editor.
 Version Control: Git for managing source code and collaboration.
 
