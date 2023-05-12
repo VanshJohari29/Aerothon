@@ -1,4 +1,4 @@
-# Aerothon
+# Aerothon [IntoTheAir.]
 This project utilizes various technologies and frameworks to accomplish its goals. The following is a breakdown of the tech stack used:
 
 FRONTEND :
