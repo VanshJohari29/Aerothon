@@ -9,9 +9,10 @@ body {
   width: 400px;
   margin: 100px auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: transparent;
   border-radius: 4px;
   box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+  margin-LEFT: 60px;
 }
 
 .input-field {
@@ -32,17 +33,19 @@ margin-bottom: 15px;
   line-height: 1;
   font-weight: 200;
   font-size: 1rem;
-  color: #333;
+  color: black;
 }
 
 h1 {
   text-align: center;
   margin-bottom: 20px;
+  color: white;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  color: white;
 }
 
 .form-group {
@@ -87,3 +90,7 @@ button:hover {
   text-align: center;
   color: red;
   }
+
+body{
+  background-image:url('Airbus-Picture.jpeg');
+}
