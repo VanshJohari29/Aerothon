@@ -22,3 +22,8 @@ Frontend Hosting: Host the static HTML, CSS, and JavaScript files on platform li
 Backend Hosting: Deploy the backend API on platforms  AWS Athena.
 Database Hosting: Choose a cloud-based database service  Amazon AWS.
 
+FOR DATA ANALYSIS :
+Python: Language used for the analysis of data
+Jupyter Notebook: IDE used for the analysis of data
+Libraries Used: Pandas , Numpy
+
