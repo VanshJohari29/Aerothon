@@ -87,8 +87,9 @@ button:hover {
 
 #message {
   text-align: center;
-  color: red;
-  }
+  font-weight: bold;
+  color: red;
+}
 
 body{
   background-image:url('Airbus-Picture.jpeg');
